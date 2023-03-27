@@ -19,13 +19,13 @@ const Main = () => {
                             <FaLinkedinIn />
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
+                            <FaGithub />
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
+                            <AiOutlineMail />
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
+                            <BsFillPersonLinesFill />
                         </div>
                     </div>
                 </div>
