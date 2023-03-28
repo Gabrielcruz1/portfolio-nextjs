@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link';
 
 const Contact = () => {
@@ -26,18 +26,25 @@ const Contact = () => {
                             <div>
                                 <p className='uppercase py-4'>Connect With Me</p>
                                 <div className='flex items-center justify-between py-4'>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaLinkedinIn />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaGithub />
-                                    </div>
+                                    <a href="https://www.linkedin.com/in/gabrielcruz2023/" target="__blank">
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <FaLinkedinIn />
+                                        </div>
+                                    </a>
+                                    <a href="https://github.com/Gabrielcruz1" target="_blank">
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <FaGithub />
+                                        </div>
+                                    </a>
                                     {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <AiOutlineMail />
                                     </div> */}
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <BsFillPersonLinesFill />
-                                    </div>
+                                    <a href="https://docs.google.com/document/d/1O3_h_3UQ4KjyUHWRO4osxnLjsUUd9uSdzwyp3t1nDo4/edit?usp=sharing"
+                                        target="_blank">
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <BsFillPersonLinesFill />
+                                        </div>
+                                    </a>
 
                                 </div>
                             </div>
@@ -61,16 +68,16 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
+                                    <label className='uppercase text-sm py-2'>Email</label>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Subject</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                    <label className='uppercase text-sm py-2'>Subject</label>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Message</label>
-                                <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'/>
+                                    <label className='uppercase text-sm py-2'>Message</label>
+                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' />
                                 </div>
                                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
                             </form>
@@ -79,9 +86,9 @@ const Contact = () => {
                 </div>
                 <div className='flex justify-center py-12'>
                     <Link href='/' >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    < HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30}/>
-                    </div>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            < HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+                        </div>
 
                     </Link>
                 </div>
