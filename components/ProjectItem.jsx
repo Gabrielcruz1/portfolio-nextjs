@@ -2,9 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import TaskManager from '../public/assets/projects/taskmanager.png'
-import Twitter from '../public/assets/projects/twitter.png'
-import RicknMorty from '../public/assets/projects/RicknMorty.png'
 
 const ProjectItem = ({title, backgroundImg, projectUrl, githubUrl, projectDesc}) => {
   return (
