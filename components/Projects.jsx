@@ -14,16 +14,18 @@ const Projects = () => {
                 <h2 className='py-4'>What I've built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
-            <ProjectItem title='Task Manager' backgroundImg={TaskManager} projectUrl='https://taskmanage.herokuapp.com/' githubUrl='https://github.com/Gabrielcruz1/django_taskmanager' projectDesc=''/>
+                    <ProjectItem title='Task Manager' backgroundImg={TaskManager} projectUrl='https://taskmanage.herokuapp.com/' githubUrl='https://github.com/Gabrielcruz1/django_taskmanager' projectDesc='Application developed in an agile environment using Python, Django, HTML, and
+							CSS. Application allows users to create, view, update, mark as complete and delete tasks. Responsive task search feature enables users to search for tasks based on keywords. To test live site, login with username: Test password: testuser'/>
 
-            <ProjectItem title='Twitter 2.0' backgroundImg={Twitter} projectUrl='https://twittertwopoint0.netlify.app/' githubUrl='https://github.com/SpeakerTwitter/frontend' projectDesc=''/>
+                    <ProjectItem title='Twitter 2.0' backgroundImg={Twitter} projectUrl='https://twittertwopoint0.netlify.app/' githubUrl='https://github.com/SpeakerTwitter/frontend' projectDesc='Social Media application built using Mongo, Express, React, Node.js (MERN). Collaborated with a fellow developer in an agile environment to reverse engineer Twitter and create a seamless user experience. Application allows users to create tweets, comment on them, view tweets,
+							and delete them.' />
 
-            <ProjectItem title='Rick n Morty Wiki' backgroundImg={RicknMorty} projectUrl='https://rickandmortywiki-app.netlify.app/' githubUrl='https://github.com/Gabrielcruz1/project2' projectDesc='Responsive front-end application that allows users to navigate through and examine data from a third party API in a customized way. Built using React.js and utilizing the react router library this app allows users to search for characters
+                    <ProjectItem title='Rick n Morty Wiki' backgroundImg={RicknMorty} projectUrl='https://rickandmortywiki-app.netlify.app/' githubUrl='https://github.com/Gabrielcruz1/project2' projectDesc='Responsive front-end application that allows users to navigate through and examine data from a third party API in a customized way. Built using React.js and utilizing the react router library this app allows users to search for characters
 							from the T.V show, click through pages and click on individual characters to get detailed
 							information.' />
 
 
-               
+
                 </div>
             </div>
         </div>
