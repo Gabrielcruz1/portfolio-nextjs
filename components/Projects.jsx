@@ -8,17 +8,19 @@ import RicknMorty from '../public/assets/projects/RicknMorty.png'
 
 const Projects = () => {
     return (
-        <div className='w-full'>
+        <div id='projects' className='w-full'>
             <div className='max-w-[1240px] mx-auto px-2 py-16'>
                 <p className='text-xl tracking-widest uppercase text-[#5651ef]'>Projects</p>
                 <h2 className='py-4'>What I've built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
-            <ProjectItem title='Task Manager' backgroundImg={TaskManager} projectUrl='/' />
+            <ProjectItem title='Task Manager' backgroundImg={TaskManager} projectUrl='https://taskmanage.herokuapp.com/' githubUrl='https://github.com/Gabrielcruz1/django_taskmanager' projectDesc=''/>
 
-            <ProjectItem title='Twitter 2.0' backgroundImg={Twitter} projectUrl='/' />
+            <ProjectItem title='Twitter 2.0' backgroundImg={Twitter} projectUrl='https://twittertwopoint0.netlify.app/' githubUrl='https://github.com/SpeakerTwitter/frontend' projectDesc=''/>
 
-            <ProjectItem title='Rick n Morty Wiki' backgroundImg={RicknMorty} projectUrl='/' />
+            <ProjectItem title='Rick n Morty Wiki' backgroundImg={RicknMorty} projectUrl='https://rickandmortywiki-app.netlify.app/' githubUrl='https://github.com/Gabrielcruz1/project2' projectDesc='Responsive front-end application that allows users to navigate through and examine data from a third party API in a customized way. Built using React.js and utilizing the react router library this app allows users to search for characters
+							from the T.V show, click through pages and click on individual characters to get detailed
+							information.' />
 
 
                
