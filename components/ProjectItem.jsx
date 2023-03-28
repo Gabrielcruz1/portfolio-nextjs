@@ -2,6 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import TaskManager from '../public/assets/projects/taskmanager.png'
+import Twitter from '../public/assets/projects/twitter.png'
+import RicknMorty from '../public/assets/projects/RicknMorty.png'
+
 const ProjectItem = ({title, backgroundImg, projectUrl, githubUrl, projectDesc}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>

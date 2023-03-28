@@ -4,7 +4,7 @@ import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 import TaskManager from '../public/assets/projects/taskmanager.png'
 import Twitter from '../public/assets/projects/twitter.png'
-import RicknMorty from '../public/assets/projects/RicknMorty.png'
+import RicknMorty from '../public/assets/projects/ricknmorty.png'
 
 const Projects = () => {
     return (
