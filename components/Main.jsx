@@ -10,7 +10,7 @@ const Main = () => {
                 <div>
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Lets build something </p>
                     <h1>Hi I'm <span className='text-[#5651e5]'>Gabriel</span></h1>
-                    <h1 className='py-4 text-gray-700'>A Full Stack Web developer</h1>
+                    <h1 className='py-4 text-gray-700'> Full Stack Web Developer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                         A software engineer passionate about developing innovative and scalable solutions to complex problems. With a background in both crisis management and behavioral therapy, I provide a distinct perspective that enables me to empower organizations with innovative software solutions. I thrive in dynamic, collaborative environments where I can utilize my strong problem-solving, communication, and leadership skills to drive successful outcomes.
                     </p>

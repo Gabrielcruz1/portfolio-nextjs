@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
@@ -27,9 +28,9 @@ const Navbar = () => {
 
     return (
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+            <div className='flex justify-between items-center w-full h-full ml-2 mr-2 px-2 2xl:px-16'>
                 <Link href="/">
-                    <Image src="/../public/assets/navLogo.png" alt="" width='125' height='50' />
+                    <Image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABAklEQVR4nO2VO07DQBRFT0OJ9wHUZAd8OihALkgTswhKu2QPRoImLCFRFoEocPaR1CCBRrojjaznsfGny2ksvc+949F7NhwYmSPgE1gyEafAL1BNZXAtg9VQoRmQGPFHGZS1eKKeThQSeTVyuXLuGfKmeNFV/Bu4MfIvyrs3CblVT9TEi/8ADw01G9VcGLm7wOS5j7hjq7oTbEyTLLiWlDh71VoD4EkDk+w/Bonqdi2HCA0WPvgUXNG8ofFMNV8R8ftAvD5prSZXyq/7iFtj6kbPWjI3qvQZ07ZFyyOn67xonnPguBYrG5YM1bqeQWxkcMlEVDJwn+xJeAc+9NM5wGj8AX65WM7pRZ29AAAAAElFTkSuQmCC" alt="" width='30' height='40' />
                 </Link>
                 <div>
                     <ul className='hidden md:flex'>
@@ -123,3 +124,6 @@ const Navbar = () => {
 };
 
 export default Navbar
+
+
+
