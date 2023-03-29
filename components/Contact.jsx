@@ -35,7 +35,7 @@ const Contact = () => {
                                 <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" />
                             </div>
                             <div>
-                                <h2 className='py-2'>Gabriel</h2>
+                                <h2 className='py-2'>Gabriel Cruz</h2>
                                 <p>Full-Stack Developer</p>
                                 <p className='py-4'>I'm available for freelance or full-time positions. Contact me and lets talk.</p>
                             </div>
