@@ -4,8 +4,22 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+    const formRef = useRef()
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        emailjs.sendForm('service_ps46qya', 'template_f6j5gt7', formRef.current, 'm0u2RAKR8JTwcmQ7_')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+
     return (
         <div id='contact' className='w-full lg:h-screen'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
@@ -56,28 +70,28 @@ const Contact = () => {
                     {/* Right side */}
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
-                            <form>
+                            <form ref={formRef} onClick={handleSubmit}>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2'>Name</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="user_name" />
                                     </div>
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2'>Phone Number</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="user_phonenumber" />
                                     </div>
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Email</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="user_email"/>
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Subject</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="user_subject"/>
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Message</label>
-                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' />
+                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name="message"/>
                                 </div>
                                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
                             </form>
