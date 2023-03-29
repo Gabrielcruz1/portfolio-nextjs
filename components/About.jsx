@@ -10,7 +10,7 @@ const About = () => {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'> About</p>
                     <h2 className='py-4'> Who am I</h2>
-                    <p className='py-2 text-gray-600'> I'm not your normal developer</p>
+                    {/* <p className='py-2 text-gray-600'> I'm not your normal developer</p> */}
                     <p className='py-2 text-greay-600'>  </p>
                     <p className='py-2 text-greay-600'>  </p>
                     <Link href='/#projects'>
