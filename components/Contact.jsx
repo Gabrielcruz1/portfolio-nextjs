@@ -4,17 +4,19 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
     const formRef = useRef()
+    const [done, setDone] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
         emailjs.sendForm('service_ps46qya', 'template_f6j5gt7', formRef.current, 'm0u2RAKR8JTwcmQ7_')
         .then((result) => {
             console.log(result.text);
+            setDone(true)
         }, (error) => {
             console.log(error.text);
         });
@@ -70,7 +72,7 @@ const Contact = () => {
                     {/* Right side */}
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
-                            <form ref={formRef} onClick={handleSubmit}>
+                            <form ref={formRef}>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2'>Name</label>
@@ -93,7 +95,8 @@ const Contact = () => {
                                     <label className='uppercase text-sm py-2'>Message</label>
                                     <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name="message"/>
                                 </div>
-                                <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+                                <button onClick={handleSubmit} className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+                                {done && alert("Thank you. Your email was sent.")}
                             </form>
                         </div>
                     </div>
