@@ -21,10 +21,10 @@ const Contact = () => {
                             <div>
                                 <h2 className='py-2'>Gabriel</h2>
                                 <p>Full-Stack Developer</p>
-                                <p className='py-4'>I am available for freelance or full-stime positions. Contact me and lets talk.</p>
+                                <p className='py-4'>I'm available for freelance or full-time positions. Contact me and lets talk.</p>
                             </div>
                             <div>
-                                <p className='uppercase py-4'>Connect With Me</p>
+                                <p className='uppercase py-4 text-[#5651e5]'>Connect With Me</p>
                                 <div className='flex items-center justify-between py-4'>
                                     <a href="https://www.linkedin.com/in/gabrielcruz2023/" target="__blank">
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
