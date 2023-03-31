@@ -1,6 +1,5 @@
 ## Portfolio
 
-## Front end deploy Link 
 https://gabrielcruz.netlify.app/
 
 ## Technologies used 
@@ -8,7 +7,7 @@ https://gabrielcruz.netlify.app/
   <li> Next.js </li>
   <li> JavaScript </li>
   <li> TailwindCSS </li>
-  <li> EmailJs </li>
+  <li> Email.js </li>
 </ul>  
 
 
