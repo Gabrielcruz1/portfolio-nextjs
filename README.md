@@ -1,3 +1,17 @@
+## Portfolio
+
+## Front end deploy Link 
+https://gabrielcruz.netlify.app/
+
+## Technologies used 
+<ul> 
+  <li> Next.js </li>
+  <li> JavaScript </li>
+  <li> TailwindCSS </li>
+  <li> EmailJs </li>
+</ul>  
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
