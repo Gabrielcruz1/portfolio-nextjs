@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className='grid md:grid-cols-2 gap-8'>
 
                     <ProjectItem title='Task Manager' backgroundImg={TaskManager} projectUrl='https://taskmanage.herokuapp.com/' githubUrl='https://github.com/Gabrielcruz1/django_taskmanager' projectDesc='Application developed in an agile environment using Python, Django, PSQL, HTML, and
-							CSS. Application allows users to create, view, update, mark as complete and delete tasks. Responsive task search feature enables users to search for tasks based on keywords. To test live site, login with username: Test password: testuser'/>
+							CSS. Application allows users to create, view, update, mark as complete and delete tasks. Responsive task search feature enables users to search for tasks based on keywords. To test live site, login with username: Test password: usertest'/>
 
                     <ProjectItem title='Twitter 2.0' backgroundImg={Twitter} projectUrl='https://twittertwopoint0.netlify.app/' githubUrl='https://github.com/SpeakerTwitter/frontend' projectDesc='Social Media application built using Mongo, Express, React, Node.js (MERN). Collaborated with a fellow developer in an agile environment to reverse engineer Twitter and create a seamless user experience. Application allows users to create tweets, comment on them, view tweets,
 							and delete them.' />
