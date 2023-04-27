@@ -17,6 +17,7 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             setDone(true)
+            document.getElementById("SubmitForm").reset()
         }, (error) => {
             console.log(error.text);
         });
@@ -72,7 +73,7 @@ const Contact = () => {
                     {/* Right side */}
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
-                            <form ref={formRef}>
+                            <form  id="SubmitForm" ref={formRef}>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2'>Name</label>
