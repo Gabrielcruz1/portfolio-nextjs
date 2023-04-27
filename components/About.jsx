@@ -13,7 +13,7 @@ const About = () => {
                     {/* <p className='py-2 text-gray-600'> I'm not your normal developer</p> */}
                     <p className='py-2 text-griay-600'>Highly motivated and detail oriented full stack software developer creating innovative and scalable solutions to complex problems with a poised and ready mindset. I love the freedom of expression, as well as the empowering feeling you get when witnessing your project come to life during front end development, and I also enjoy the backend intricacies that are tried and true and allow for mass storage and security of data.</p>
                     <p className='py-2 text-griay-600'> Born and raised in Los Angeles, California, I'm an active soul who loves the outdoors and staying physically fit. I'm an avid lover of music from all types of genres and enjoy playing and practicing the piano. When I'm not developing or expanding my skillset, you can find me outdoors with my dogs or enjoying the company of friends and family.  </p>
-                    <Link href='/#projects'>
+                    <Link href='/#projects' scroll={false}>
                         <p className='py-2 text-greay-600 underline cursor-pointer'> Check out my latest projects!</p>
                     </Link>
                 </div>
