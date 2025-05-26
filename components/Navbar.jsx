@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABAklEQVR4nO2VO07DQBRFT0OJ9wHUZAd8OihALkgTswhKu2QPRoImLCFRFoEocPaR1CCBRrojjaznsfGny2ksvc+949F7NhwYmSPgE1gyEafAL1BNZXAtg9VQoRmQGPFHGZS1eKKeThQSeTVyuXLuGfKmeNFV/Bu4MfIvyrs3CblVT9TEi/8ADw01G9VcGLm7wOS5j7hjq7oTbEyTLLiWlDh71VoD4EkDk+w/Bonqdi2HCA0WPvgUXNG8ofFMNV8R8ftAvD5prSZXyq/7iFtj6kbPWjI3qvQZ07ZFyyOn67xonnPguBYrG5YM1bqeQWxkcMlEVDJwn+xJeAc+9NM5wGj8AX65WM7pRZ29AAAAAElFTkSuQmCC" alt="" width='30' height='40' />
                 </Link>
                 <div>
-                    <ul className='hidden md:flex'>
+                    <ul className='hidden md:flex mr-5'>
                         <Link href='/#home' scroll={false} >
                             <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                         </Link>
