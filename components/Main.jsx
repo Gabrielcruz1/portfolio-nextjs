@@ -12,7 +12,7 @@ const Main = () => {
                     <h1>Hi I'm <span className='text-[#5651e5]'>Gabriel</span></h1>
                     <h1 className='py-4 text-gray-700'> Full Stack Web Developer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        A software engineer passionate about developing innovative and scalable solutions to complex problems. I thrive in dynamic, collaborative environments where I utilize my strong problem-solving, communication, and leadership skills to drive successful outcomes. With a background in both crisis management and behavioral therapy, I provide a distinct perspective that enables me to empower organizations with innovative software solutions.
+                    With 3+ years of experience building scalable, user-focused applications, I specialize in turning complex problems into clean, maintainable solutions—whether it's debugging enterprise React codebases, optimizing CI pipelines, or leading end-to-end test automation. I thrive in dynamic, collaborative teams where I blend technical depth with strong communication and leadership to drive meaningful impact.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         <a href="https://www.linkedin.com/in/gabrielcruz2023/" target="__blank">
