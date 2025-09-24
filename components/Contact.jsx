@@ -56,17 +56,15 @@ const Contact = () => {
                                     {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <AiOutlineMail />
                                     </div> */}
-                                    <a href="https://docs.google.com/document/d/1WCD5VKLznG5YOtoxAUa4bmTJOb_FHBan7eYxtPe59xQ/edit?usp=sharing"
+                                    <a href="https://docs.google.com/document/d/1bt2bJJvkFv8pC19lHeRzDynkc0hh7Dkgy3-__eJ68vc/edit?usp=sharing"
                                         target="_blank">
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <BsFillPersonLinesFill />
                                         </div>
                                     </a>
-
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
 
