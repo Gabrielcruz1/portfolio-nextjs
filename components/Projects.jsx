@@ -9,8 +9,10 @@ const Projects = () => {
     return (
         <div id='projects' className='w-full'>
             <div className='max-w-[1240px] mx-auto px-2 py-16'>
-                <p className='text-xl tracking-widest uppercase text-[#5651ef]'>Projects</p>
-                <h2 className='py-4'>What I've built</h2>
+                <div className='text-center'>
+                    <p className='text-xl tracking-widest uppercase text-[#5651ef]'>Projects</p>
+                    <h2 className='py-4'>What I've built</h2>
+                </div>
                 <div className='grid md:grid-cols-2 gap-8'>
 
                     <ProjectItem title="Agi's Caribbean" backgroundImg={Agiscaribbean} projectUrl='https://agis-next.vercel.app/' githubUrl='https://github.com/Gabrielcruz1/agis-next' projectDesc='Built using Next.js, Stripe, Zustand, and Tailwind. Developed an E-commerce application for a local business to sell frozen food and hot sauce. (Private GitHub repo) ' />
