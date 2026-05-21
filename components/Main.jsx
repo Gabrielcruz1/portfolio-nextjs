@@ -12,7 +12,7 @@ const Main = () => {
                     <h1>Hi I'm <span className='text-[#5651e5]'>Gabriel</span></h1>
                     <h1 className='py-4 text-gray-700'> Full Stack Web Developer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    With 3+ years of experience building scalable, user-focused applications, I specialize in turning complex problems into clean, maintainable solutions—whether it's debugging enterprise React codebases, optimizing CI pipelines, or leading end-to-end test automation. I thrive in dynamic, collaborative teams where I blend technical depth with strong communication and leadership to drive meaningful impact.
+                    With 3 years of experience building scalable, user-focused applications, I specialize in turning complex problems into clean, maintainable solutions—whether it's debugging enterprise React codebases, optimizing CI pipelines, or leading end-to-end test automation. I thrive in dynamic, collaborative teams where I blend technical depth with strong communication and leadership to drive meaningful impact.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         <a href="https://www.linkedin.com/in/gabrielcruz2023/" target="__blank">
@@ -28,7 +28,7 @@ const Main = () => {
                         {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineMail />
                         </div> */}
-                        <a href="https://docs.google.com/document/d/1bt2bJJvkFv8pC19lHeRzDynkc0hh7Dkgy3-__eJ68vc/edit?usp=sharing"
+                        <a href="https://docs.google.com/document/d/1bfB0XrM8KFNJ-8W-FQ6s64L-UWHTWDdn9gB6i7dc2wY/edit?usp=sharing"
                             target="_blank">
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                 <BsFillPersonLinesFill />
