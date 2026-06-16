@@ -28,7 +28,8 @@ const About = () => {
                         <Image 
                             className='rounded-xl' 
                             src={Headshot} 
-                            alt="Headshot" />
+                            alt="Headshot"
+                             />
                     </div>
                 </div>
             </div>
