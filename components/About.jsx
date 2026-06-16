@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Headshot from '../public/assets/projects/headshot.png'
+import Headshot from '../public/assets/projects/Headshot.png'
 import Link from 'next/link'
 
 const About = () => {
@@ -25,7 +25,10 @@ const About = () => {
                         </Link>
                     </div>
                     <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                        <Image className='rounded-xl' src={Headshot} alt={Headshot} />
+                        <Image 
+                            className='rounded-xl' 
+                            src={Headshot} 
+                            alt="Headshot" />
                     </div>
                 </div>
             </div>
