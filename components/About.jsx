@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Headshot from '../public/assets/projects/headshot.jpg'
+import Headshot from '../public/assets/projects/headshot.png'
 import Link from 'next/link'
 
 const About = () => {
