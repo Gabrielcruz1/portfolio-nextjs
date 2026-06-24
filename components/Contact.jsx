@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
@@ -27,7 +26,7 @@ const Contact = () => {
         <div id='contact' className='w-full lg:h-screen'>
             <div className='max-w-[900px] m-auto px-2 py-16 w-full'>
                 <div className='text-center'>
-                    <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
+                    <p className='text-xl tracking-widest uppercase text-[#0f5ad2]'>Contact</p>
                     <h2 className='py-4'>Get In Touch</h2>
                 </div>
 
@@ -36,7 +35,7 @@ const Contact = () => {
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         {/* <div> */}
                             {/* Header  */}
-                            <p className='flex items-center justify-center uppercase py-4 text-[#5651e5]'>Connect With Me</p>
+                            <p className='flex items-center justify-center uppercase py-4 text-[#0f5ad2]'>Connect With Me</p>
                             <div className='flex items-center justify-center py-2'>
                                     <a href="https://www.linkedin.com/in/gabrielcruz2023/" target="__blank">
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 mr-5 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -89,7 +88,7 @@ const Contact = () => {
                 <div className='flex justify-center py-12'>
                     <Link href='/#home' scroll={false} >
                         <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            < HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+                            < HiOutlineChevronDoubleUp className='text-[#0f5ad2]' size={30} />
                         </div>
 
                     </Link>

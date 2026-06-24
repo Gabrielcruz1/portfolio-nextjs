@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
             <div className='text-center -m-50'>
-                <p className='uppercase text-xl tracking-widest text-[#5651e5]'> About</p>
+                <p className='uppercase text-xl tracking-widest text-[#0f5ad2]'> About</p>
                 <h2 className='py-4'> Who am I</h2>
             </div>
             <div id='about' className='w-full md:h-screen p-2 flex items-center'>
